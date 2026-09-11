@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" fill="none">
+  <g stroke="#20231f" stroke-width="2" opacity=".12">
+    <g transform="translate(70 110) rotate(-8)">
+      <rect x="0" y="45" width="230" height="135" rx="22"/>
+      <path d="M48 45l18-32h70l18 32"/>
+      <circle cx="115" cy="112" r="52"/>
+      <circle cx="115" cy="112" r="34"/>
+      <circle cx="115" cy="112" r="10"/>
+      <circle cx="194" cy="73" r="8"/>
+    </g>
+    <g transform="translate(585 70) rotate(12)">
+      <rect x="0" y="45" width="220" height="132" rx="20"/>
+      <path d="M42 45l16-29h70l18 29"/>
+      <circle cx="110" cy="111" r="50"/>
+      <circle cx="110" cy="111" r="31"/>
+      <circle cx="110" cy="111" r="8"/>
+    </g>
+    <g transform="translate(120 560) rotate(7)">
+      <circle cx="90" cy="90" r="78"/>
+      <circle cx="90" cy="90" r="55"/>
+      <circle cx="90" cy="90" r="22"/>
+      <path d="M90 12v34M90 134v34M12 90h34M134 90h34"/>
+    </g>
+    <g transform="translate(620 545) rotate(-9)">
+      <rect x="0" y="0" width="190" height="105" rx="12"/>
+      <circle cx="48" cy="53" r="25"/>
+      <circle cx="145" cy="53" r="25"/>
+      <path d="M15 105v25M45 105v25M75 105v25M105 105v25M135 105v25M165 105v25"/>
+    </g>
+    <path d="M430 240c60 20 92 55 105 112" stroke-dasharray="7 12"/>
+    <path d="M420 735c-55-24-91-61-108-118" stroke-dasharray="7 12"/>
+  </g>
+</svg>
