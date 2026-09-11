@@ -250,3 +250,4 @@ button{min-height:44px}
 .uploadButton input{display:none!important}
 .bannerAdminBox small{color:var(--muted);line-height:1.5}
 @media (max-width:640px){.bannerAdminActions{display:grid;grid-template-columns:1fr}.bannerAdminActions>*{width:100%;justify-content:center}}
+.qrPlaceholder img{width:100%;height:100%;object-fit:contain;border-radius:20px;padding:10px}.qrAdminPreview{width:180px!important;height:180px!important;object-fit:contain!important;background:#fff}
