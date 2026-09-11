@@ -236,11 +236,11 @@ button{min-height:44px}
 
 
 /* Sticky booking CTA */
-.stickyBook{position:fixed;right:22px;top:50%;transform:translateY(-50%);z-index:60;border:0;background:var(--accent);color:#fff;border-radius:17px;padding:16px 15px;min-width:84px;min-height:104px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;font:700 16px/1.1 inherit;box-shadow:0 12px 30px rgba(0,0,0,.16);cursor:pointer;transition:transform .18s ease,box-shadow .18s ease}
+.stickyBook{position:fixed;right:22px;top:50%;transform:translateY(-50%);z-index:60;border:0;background:var(--accent);color:#fff;border-radius:50%;width:112px;height:112px;padding:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;font:800 17px/1.05 inherit;text-transform:uppercase;letter-spacing:.06em;box-shadow:0 12px 30px rgba(0,0,0,.16);cursor:pointer;transition:transform .18s ease,box-shadow .18s ease}
 .stickyBook:hover{transform:translateY(-50%) scale(1.04);box-shadow:0 16px 36px rgba(0,0,0,.2)}
-.stickyBookIcon{font-size:24px;line-height:1;border:1px solid rgba(255,255,255,.8);border-radius:6px;width:30px;height:30px;display:grid;place-items:center}
-@media(max-width:920px){.stickyBook{right:14px;top:auto;bottom:18px;transform:none;min-width:0;width:64px;height:64px;min-height:64px;border-radius:50%;padding:7px;gap:2px;box-shadow:0 8px 24px rgba(0,0,0,.2)}.stickyBook:hover{transform:scale(1.04)}.stickyBookIcon{font-size:18px;width:24px;height:24px}.stickyBook span:last-child{font-size:11px}}
-@media(max-width:480px){.stickyBook{right:12px;bottom:14px;width:60px;height:60px;min-height:60px}.stickyBookIcon{display:none}.stickyBook span:last-child{font-size:12px}}
+.stickyBookIcon{font-size:26px;line-height:1;border:1px solid rgba(255,255,255,.8);border-radius:50%;width:34px;height:34px;display:grid;place-items:center}
+@media(max-width:920px){.stickyBook{right:14px;top:auto;bottom:18px;transform:none;width:72px;height:72px;border-radius:50%;padding:7px;gap:3px;box-shadow:0 8px 24px rgba(0,0,0,.2)}.stickyBook:hover{transform:scale(1.04)}.stickyBookIcon{font-size:19px;width:25px;height:25px}.stickyBook span:last-child{font-size:10px;letter-spacing:.05em}}
+@media(max-width:480px){.stickyBook{right:12px;bottom:14px;width:68px;height:68px}.stickyBookIcon{display:none}.stickyBook span:last-child{font-size:10px;letter-spacing:.05em}}
 
 .bannerAdminField{display:grid;gap:8px}
 .bannerAdminBox{border:1px solid var(--line);border-radius:16px;padding:12px;background:rgba(255,255,255,.45);display:grid;gap:12px}
